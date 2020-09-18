@@ -395,6 +395,41 @@ strong{
 .page-item:first-child .page-link, .page-item:last-child .page-link {
     border-radius: 50%;
 }
+/*-----------------------------
+    contact
+-------------------------------*/
+.contact{
+    padding: 100px 0px;
+}
+.contact-info i{
+    color: var(--mainCyan);
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+.social-icon i{
+    font-size: 1rem;
+    color: var(--mainWhite);
+    border: 1px solid var(--mainCyan);
+    background: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.9s ease-in-out;
+    text-align: center;
+    padding: 11px;
+}
+.social-icon i:hover{
+    color: var(--mainWhite);
+    border: 1px solid var(--mainWhite);
+    background: var(--mainCyan);
+}
+.nav-link{
+    padding: 0px;
+}
+.form-control{
+    background: transparent;
+    border: 2px solid var(--mainCyan);
+}
 @media screen and (min-width: 992px){
     .hide{
         display: block;
