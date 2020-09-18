@@ -352,6 +352,49 @@ strong{
     text-transform: none;
     color: var(--mainWhite);
 }
+/*-----------------------------
+    blog
+-------------------------------*/
+.blog{
+    padding: 100px 0px;
+}
+.blog a{
+    text-transform: none;
+}
+.blog a:hover{
+    text-transform: none;
+    color: var(--mainWhite);
+}
+.blog-info i{
+    color: var(--mainCyan);
+    margin-right: 10px;
+}
+.blog-info span{
+    padding: 20px 25px 20px 0px;
+    margin-bottom: 8px;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin: 10px;
+    line-height: 1.25;
+    color: var(--mainWhite);
+    background-color: transparent;
+    border: 1px solid var(--mainCyan);
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+.page-link:hover {
+    z-index: 2;
+    color: var(--mainWhite);
+    text-decoration: none;
+    background-color: var(--mainCyan);
+    border-color: var(--mainWhite);
+}
+.page-item:first-child .page-link, .page-item:last-child .page-link {
+    border-radius: 50%;
+}
 @media screen and (min-width: 992px){
     .hide{
         display: block;
